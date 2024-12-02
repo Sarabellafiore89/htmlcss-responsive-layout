@@ -19,6 +19,11 @@ body{
     background-color: lightgray;
 }
 
+h1{
+    font-family: "Nerko One", cursive;
+    font-weight: 200 px;
+}
+
 .container{
     width:80%;
     margin: 30px auto;
