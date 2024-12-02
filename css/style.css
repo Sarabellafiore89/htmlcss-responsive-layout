@@ -32,6 +32,15 @@ h1{
     height:400px;
 }
 
+.col{
+
+    /*DEBUG*/
+    height:150px;
+    background-color: aquamarine;
+    border: solid 2px black;
+    }
+
+
 /* regole footer */
 
 footer{
@@ -40,3 +49,28 @@ footer{
     height:150px;
 
 }
+
+
+/* tablet  */
+@media screen and (min-width 768px){
+
+}
+
+
+
+
+
+/* desktop */
+
+@media screen and (min-width 992px){
+    .row{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer .col{
+        width: 50%;
+    
+    
+}
+
