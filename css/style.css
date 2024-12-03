@@ -223,7 +223,79 @@ footer ul{
     text-align: left;
    }
 
+}
+
+
+   /* tablet */
+
+
+@media screen and (min-width:768px) {
     
+    /* regole header */
+    
+    h1{
+        text-align: left;
+        padding:0 10px;
+    }
+    
+    /* regole main */
+    
+    h2{
+        font-size:30px;
+    }
+    .parentesi{
+        display: inline-block;
+    }
+    
+    .info{
+        width:100%;
+    }
+
+   
+    #lista{
+        display: flex;
+        flex-wrap: wrap;
+        gap:20px;
+        padding:20px 30px;
+    }
+    
+    
+    .loghi{
+        display:none;
+        border-radius: 100%;
+    }
+    
+    
+    i{
+        text-align: center;
+        border-radius: 9999px; 
+        padding:10px;
+    } 
+    
+
+
+    /* section banner */
+    #banner{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    /* section presentation */
+
+    .presentation img{
+        width:40%;
+       padding: 10px;
+        float: left;
+
+    }
+    .clearfix::after{
+       display: table;
+       content: "";
+       clear: both;
+    }
+
+}
 
 
 
