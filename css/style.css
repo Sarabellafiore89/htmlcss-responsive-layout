@@ -111,7 +111,16 @@ i{
 
 /* banner  */
 
+#banner{
+    display: none;
+    max-width: 100%;
+    margin:30px;  
+    
+}
 
+#banner img{
+    width:100%;
+}
 
 /*  presentation */
 
@@ -179,12 +188,28 @@ footer ul{
 
     /* regole generali */
 
+    .container-main{
+        padding: 40px 60px;
+        font-size: 15px;
+    }
+
     h2{
         font-size:40px;
     }
 
     .lista-info{
         display: block;
+    }
+
+    .loghi{
+
+        display: inline-block;
+        font-size: 10px;
+    }
+
+    .presentation img{
+        width:30%;
+
     }
 
     /* regole footer */
@@ -194,26 +219,11 @@ footer ul{
     }
 
 
-    /* regole contenuto */
+   .col{
+    text-align: left;
+   }
 
-    #contenuto .col-video{
-
-        width:80%;
-
-    }
-
-    #contenuto .col-info{
-        width:20%;
-
-
-    }
-
-
-    /* regole footer */
-    footer .col{
-        width: 50%;
     
-    
-    }
 
-}
+
+
