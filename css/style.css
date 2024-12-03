@@ -197,14 +197,12 @@ footer ul{
         font-size:40px;
     }
 
-    .lista-info{
+    .lista{
         display: block;
     }
 
     .loghi{
-
-        display: inline-block;
-        font-size: 10px;
+        font-size: 20px;
     }
 
     .presentation img{
@@ -252,18 +250,14 @@ footer ul{
     }
 
    
-    #lista{
+    .lista{
         display: flex;
         flex-wrap: wrap;
         gap:20px;
         padding:20px 30px;
     }
     
-    
-    .loghi{
-        display:none;
-        border-radius: 100%;
-    }
+
     
     
     i{
@@ -291,8 +285,7 @@ footer ul{
     }
     .clearfix::after{
        display: table;
-       content: "";
-       clear: both;
+      
     }
 
 }
